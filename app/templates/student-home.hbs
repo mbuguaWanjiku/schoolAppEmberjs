@@ -1,0 +1,37 @@
+<div class="row">
+    <div id="studentStatic">
+        <div class="col-md-2  verticalLeft studentCommon">
+
+            <div class="col-md-2 studentImage">
+                <alt> student image</alt>
+            </div>
+            <div class="leftMenu">
+                {{#link-to 'studentHome.editProfile'}}
+                <p class="btn btn-primary btnNav"> editProfile</p>
+                {{/link-to}}
+
+                <br> {{#link-to 'studentHome.attendance'}}
+                <p class="btn btn-primary btnNav">attendance</p>
+
+                {{/link-to}}
+
+                <br> {{#link-to 'studentHome.schoolFees'}}
+                <p class="btn btn-primary  btnNav">schoolFees</p>
+                {{/link-to}}
+
+                <br> {{#link-to 'studentHome.survey'}}
+                <p class="btn btn-primary  btnNav">survey</p>
+                {{/link-to}}
+
+                <br> {{#link-to 'studentHome.evaluationResult'}}
+                <p class="btn btn-primary btnNav">evaluationResult</p>
+                {{/link-to}}
+                <br>
+            </div>
+        </div>
+    </div>
+    <div id="studentDynamic">
+        {{outlet}}
+    </div>
+
+</div>

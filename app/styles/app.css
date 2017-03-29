@@ -1,0 +1,62 @@
+
+.studentCommon{
+ 
+  margin: 20px;
+  margin-top:0px;
+  height: 550px;
+  
+}
+
+.verticalLeft{
+ background-color:mintcream;
+ height: 580px;
+
+}
+.verticalRight{
+ background-color:white;
+ 
+}
+
+.events{
+background-color:white;
+height: 100px;
+margin-top:0px;;
+margin-left: 230px;
+}
+.todayTimetable{
+background-color:lightgray;
+height: 220px;
+margin-top: 10px;
+margin-left: 230px;
+}
+.nextExams{
+background-color:lightblue;
+height: 240px;
+margin-top: 10px;
+margin-left: 230px;
+}
+ 
+ .studentImage{
+    background-color:white;
+    margin: 0px;
+    position: relative;
+    height:200px;
+    width: 200px;
+
+ }
+
+ .leftMenu{
+     background-color: white;
+     margin-top: 250px;
+     height: 150px;
+ }
+ .studPageLabel{
+     
+     padding: 0px;
+     margin-left: 600px;
+ }
+
+ .btnNav{
+     width: 100%;
+     margin-bottom: 20px;
+ }

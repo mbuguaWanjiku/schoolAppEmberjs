@@ -1,5 +1,6 @@
 {
   "name": "school-app",
   "dependencies": {
+    "bootstrap": "^3.3.7"
   }
 }

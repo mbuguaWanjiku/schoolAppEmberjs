@@ -7,6 +7,14 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('studentHome', function() {
+    this.route('editProfile');
+    this.route('attendance');
+    this.route('schoolFees');
+    this.route('evaluationResult');
+    this.route('survey');
+    this.route('edit-profile');
+  });
 });
 
 export default Router;
